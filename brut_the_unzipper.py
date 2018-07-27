@@ -11,7 +11,7 @@ def extract_zip(zfile, password):
         pass
 
 def main():
-    parser = optparse.OptionParser("ZipFile Password Cracker with Brute-Force Attack"'\n''\n' +"Example Script:- python brut_the_unzipper.py -f <locked.zip> -p <password.txt> ")
+    parser = optparse.OptionParser("ZipFile Password Cracker with Brute-Force Attack"'\n''\n' +"Example Script:- python brut_the_unzipper.py -f <locked.zip> -d <password.txt> ")
     parser.add_option('-f', dest='zname', type='string',\
                       help='specify zip file')
     parser.add_option('-d', dest='dname', type='string',\
